@@ -1,4 +1,4 @@
-# SHIWOL Village Event Simulation System
+# Revenue @ Samuguk
 
 This system provides simulation and optimization tools for planning the SHIWOL Village Event.
 
@@ -6,11 +6,10 @@ This system provides simulation and optimization tools for planning the SHIWOL V
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/shiwol-village-event-simulation.git
+   git clone https://github.com/bound-less/samuguk.git
    ```
 2. Install dependencies:
    ```
-   cd shiwol-village-event-simulation
    npm install
    ```
 
@@ -31,8 +30,8 @@ For more detailed usage instructions, refer to the documentation.
 
 ## Documentation
 
-[Link to your documentation, when available]
+documentation\enhanced-notion-wiki-documentation.md
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This is not available for public use. Copyright Samuguk 2024.
