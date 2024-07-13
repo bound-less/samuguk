@@ -1,13 +1,4 @@
-// src/index.js
+import SimulationAPI from './api/SimulationAPI';
 
-const SimulationAPI = require('./api/SimulationAPI');
-
-// This file can serve as the entry point for your application.
-// You can add any initialization logic or example usage here.
-
-const api = new SimulationAPI();
-
-// Example usage
-api.runSimulationWithDefaults()
-  .then(results => console.log('Simulation Results:', JSON.stringify(results, null, 2)))
-  .catch(error => console.error('Simulation Error:', error));
+// Continue with the rest of the application logic
+// Ensure that there are no other typos or incorrect paths in this file
