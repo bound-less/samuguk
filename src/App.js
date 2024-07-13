@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ChakraProvider, Box, VStack, Grid, theme } from '@chakra-ui/react';
-import { SimulationAPI } from './api/SimulationAPI';
+import SimulationAPI from './api/SimulationAPI';
 import SimulationForm from './components/SimulationForm';
 import ResultsDisplay from './components/ResultsDisplay';
 import ScenarioManager from './components/ScenarioManager';
