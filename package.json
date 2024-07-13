@@ -21,7 +21,15 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "recharts": "^2.4.3",
-    "javascript-lp-solver": "^0.4.24"
+    "javascript-lp-solver": "^0.4.24",
+    "bayesian-network": "^0.1.5"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0"
   },
   "eslintConfig": {
     "extends": [

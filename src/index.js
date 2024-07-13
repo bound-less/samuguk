@@ -1,4 +1,10 @@
-import SimulationAPI from './api/SimulationAPI';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-// Continue with the rest of the application logic
-// Ensure that there are no other typos or incorrect paths in this file
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

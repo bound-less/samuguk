@@ -1,6 +1,10 @@
-// config.js
-
-module.exports = {
+const config = {
+  queueingModel: {
+    entrance: { serviceRate: 200, numServers: 5 },
+    foodStalls: { serviceRate: 60, numServers: 10 },
+    attractions: { serviceRate: 120, numServers: 8 },
+    merchandise: { serviceRate: 40, numServers: 6 }
+  },
   defaultParams: {
     numSimulations: 10000,
     dailyAttendanceMin: 1500,
@@ -9,7 +13,7 @@ module.exports = {
     ticketPrice: 20000,
     merchSpendPerVisitor: 15000,
     merchPurchaseRate: 0.25,
-    silentDiscoTotalRevenue: 180000000
+    totalRevenue: 180000000
   },
   defaultUserInputs: {
     economicGrowthRate: 0.03,
@@ -18,3 +22,5 @@ module.exports = {
     marketingLevel: 'Medium'
   }
 };
+
+export default config;
