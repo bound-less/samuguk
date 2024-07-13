@@ -1,10 +1,10 @@
-import { runMonteCarloSimulation } from '/algorithms/MonteCarloSimulation';
-import { runLinearProgramming } from '/algorithms/LinearProgramming';
-import { runQueueingModel } from '/algorithms/QueueingModel';
-import { runBayesianNetwork } from '/algorithms/BayesianNetwork';
-import EventEmitter from '/utils/EventEmitter';
-import ConfigManager from '/utils/ConfigManager';
-import config from '../config';
+import { runMonteCarloSimulation } from './algorithms/MonteCarloSimulation';
+import { runLinearProgramming } from './algorithms/LinearProgramming';
+import { runQueueingModel } from './algorithms/QueueingModel';
+import { runBayesianNetwork } from './algorithms/BayesianNetwork';
+import EventEmitter from './utils/EventEmitter';
+import ConfigManager from './utils/ConfigManager';
+import config from './config';
 
 class SimulationEngine {
   constructor() {
